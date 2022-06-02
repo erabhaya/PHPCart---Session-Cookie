@@ -27,6 +27,7 @@
 
                 <tr>
                     <td>
+                        <input type="checkbox" value="<?= $value['id'] ?>" >
                         <?= $value['id'] ?>
                     </td>
                     <td>
@@ -55,7 +56,9 @@
 
         </tbody>
     </table>
-    <a class="add-to-cart" href="./controller/allBuy.php?>">Buy All</a>
+    <a class="btn btn-primary" href="./controller/allBuy.php?action=cart">Buy All</a>
+    <a class="btn btn-primary" href="./controller/allWishlist.php?action=cart">Wish All</a>
+
 
 
 

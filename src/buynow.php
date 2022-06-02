@@ -58,7 +58,8 @@
         </tbody>
     </table>
 
-
+    <a class="btn btn-primary" href="./controller/allCart.php?action=buy">Cart All</a>
+    <a class="btn btn-primary" href="./controller/allWishlist.php?action=buy">Wish All</a>
 
 
     <?php include("footer.php") ?>
